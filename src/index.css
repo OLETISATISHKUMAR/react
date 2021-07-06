@@ -1,13 +1,160 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* body {
+  background-image: url("/src/Imgs/project.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+
+.navbar {
+  background-color: #393e46;
+  padding: 2.5% 2%;
+}
+.link {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+}
+.links {
+  list-style-type: none;
+}
+.Navlink {
+  color: white;
+  float: right;
+  margin-left: 2%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+}
+.Navlink-logo {
+  color: white;
+  float: right;
+  text-decoration: none;
+  margin-left: 2%;
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+  right: 10%;
+  border-radius: 100%;
+  color: palevioletred;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*Auth...*/
+/* Input tags */
+.input {
+  opacity: 0.5;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 20%;
+  padding: 1% 4%;
+  margin: 1% 2%;
+}
+.form {
+  margin: 4% 2%;
+}
+h1,
+h2 {
+  padding: 2% 5%;
+  color: white;
+}
+.button {
+  margin: 2% 3%;
+  padding: 1% 2%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background-color: blue;
+}
+.textarea {
+  opacity: 0.6;
+  margin: 1% 2%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 70%;
+  height: 100px;
+  padding: 2% 2%;
+  text-align: left;
+  text-decoration: none;
+}
+p {
+  color: blue;
+}
+/* ------Pojects------ */
+.projectContainer {
+  float: left;
+  margin: 3%;
+  width: 1000px;
+}
+.notification {
+  margin: 3%;
+  float: right;
+  width: 300px;
+  height: 800px;
+}
+.project1 {
+  text-align: center;
+  margin-top: 5%;
+  border-radius: 5px;
+  height: 300px;
+  width: 280px;
+  box-shadow: 5px 5px 5px 5px;
+  float: left;
+  margin-left: 2%;
+}
+.project0 {
+  float: left;
+  width: 30%;
+  height: 20%;
+}
+
+/* paper */
+
+.paper {
+  width: 500px;
+  height: 500px;
+  margin-left: 500px;
+}
+.textField {
+  padding: 5%;
+  margin-left: 130px;
+}
+
+.textField_S {
+  padding: 3%;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.btn_S {
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.btns {
+  margin-left: 180px;
+}
+.h3 {
+  padding: 20px;
+}
+.email {
+  width: 450px;
+}
+.textarea {
+  width: 500px;
+  height: 50px; 
+}
+.paper_T {
+  width: 800px;
+  height: 500px;
+  margin-left: 300px;
+}
+.btn_T {
+  margin-left: 15px;
+}
+.textField_T {
+  padding: 1%;
+  margin-left: 10px;
 }
